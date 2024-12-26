@@ -103,7 +103,8 @@ class AutoClicker:
             self.last_check_time = current_time
             templates = [
                 cv2.imread(os.path.join("template_png", "template_play_button.png"), cv2.IMREAD_GRAYSCALE),
-                cv2.imread(os.path.join("template_png", "template_play_button1.png"), cv2.IMREAD_GRAYSCALE)
+                cv2.imread(os.path.join("template_png", "template_play_button1.png"), cv2.IMREAD_GRAYSCALE),
+                cv2.imread(os.path.join("template_png", "template_play_button2.png"), cv2.IMREAD_GRAYSCALE)
             ]
 
             for template in templates:
