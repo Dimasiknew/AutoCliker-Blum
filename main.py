@@ -282,7 +282,7 @@ if __name__ == "__main__":
     windows = list_windows_by_title(config.KEYWORDS)
 
     if not windows:
-        print("Нет окон, содержащих указанные ключевые слова Blum или Telegram.")
+        print("Нет окон, содержащих указанные ключевые слова Turbo или Telegram.")
         exit()
 
     print("Доступные окна для выбора:")
