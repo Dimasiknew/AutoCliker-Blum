@@ -9,7 +9,7 @@ THRESHOLD = 0.2
 HOTKEY = 'F6'
 
 # Ключевые слова для поиска окон с игрой
-KEYWORDS = ["Blum", "Telegram"]
+KEYWORDS = ["Turbo", "Tap"]
 
 # Цвета для звезд
 TARGET_COLORS_HEX = ["#c9e100", "#bae70e"]
